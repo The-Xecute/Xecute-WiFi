@@ -1,9 +1,9 @@
 # Overview
-**OneShot-Extended** performs the [Pixie Dust attack](https://forums.kali.org/showthread.php?24286-WPS-Pixie-Dust-Attack-Offline-WPS-Attack) without the requirement of monitor mode.
+**Xecute-WiFi** performs the [Pixie Dust attack](https://forums.kali.org/showthread.php?24286-WPS-Pixie-Dust-Attack-Offline-WPS-Attack) without the requirement of monitor mode.
 
-This is an improved version of the original OneShot
+This is an improved version of the original Xecute-WiFi
 
-## Advantages over original OneShot
+## Advantages over original Xecute-WiFi
  - Highlighting of a vulnerable WPS version (1.0) in the scanner
  - Ability to save the AP right into the Network Manager of your system
  - Ability to do a WPS Null/blank pin attack
@@ -88,9 +88,9 @@ sudo python ~/XiFi/XiFi.py -i wlan0 -K -w --mtk-wifi
 ```
 
 # Update procedure
-1. Change directory to where OneShot-Extended is cloned
+1. Change directory to where Xecute-WiFi is cloned
 ```
-cd OneShot-Extended
+cd Xecute-WiFi
 ```
 
 2. Update via git to latest commit, this will revert any local changes
@@ -106,10 +106,10 @@ This happens because something else is trying to use the interface (Wi-Fi scanne
 
 - Android: try re-running the tool few times
 - Linux: try disabling Wi-Fi in the system settings, and kill the Network manager.
-- Alternatively: you can try running OneShot-Extended with ```--iface-down``` argument.
+- Alternatively: you can try running Xecute-WiFi with ```--iface-down``` argument.
 
 ### The wlan0 interface disappears when Wi-Fi is disabled on Android devices with MediaTek SoC
-- Try running Oneshot-Extended with the `--mtk-wifi` flag to initialize Wi-Fi device driver.
+- Try running Xecute-WiFi with the `--mtk-wifi` flag to initialize Wi-Fi device driver.
 
 
 ### Telegram: 
@@ -125,4 +125,4 @@ This happens because something else is trying to use the interface (Wi-Fi scanne
 > By using this tool, you agree to use it responsibly and ethically, and to comply with all applicable laws and regulations.
 > The developer assumes no responsibility for any misuse of this tool.
 
-* © 2026 Xecute. All rights reserved.*
+** © 2026 Xecute. All rights reserved. **
