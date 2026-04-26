@@ -59,10 +59,7 @@ Advanced arguments:
  pkg install -y root-repo
  pkg install -y git tsu python wpa-supplicant pixiewps iw openssl
  ```
- ```shell
- pkg install git
- pkg install sudo
- ```
+ 
 - **On Linux distributions. Install these packages through your package manager:**
  ```shell
  python3 wpa-supplicant iw wget pixiewps
