@@ -76,6 +76,7 @@ Advanced arguments:
  ```
 **or √**
 - **On Termux:**
+- First Turn Off Wifi & Turn On Hotspot. Then Run
 ```shell
 sudo python ~/XiFi/XiFi.py -i wlan0 -K -w
 ```
