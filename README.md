@@ -116,7 +116,7 @@ This happens because something else is trying to use the interface (Wi-Fi scanne
 * `Username: @iXecute`
 * `Channel: @Xecute_Channel`
 * `Group: @iDecryptor`
-*
+
 # Acknowledgements
 * `Telegram: @iXecute` for the foundation of this project
 > [!WARNING] 
