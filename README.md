@@ -71,16 +71,18 @@ Advanced arguments:
  git clone https://github.com/The-Xecute/Xecute-WiFi XiFi
  ```
 ##Running
+**Terminal**
  ```shell
  sudo python ose/XiFi.py -i wlan0
  ```
-**or √**
+**OR √**
 - **On Termux:**
 - First Turn Off Wifi & Turn On Hotspot. Then Run
+**For Normal Devices:**
 ```shell
 sudo python ~/XiFi/XiFi.py -i wlan0 -K -w
 ```
-**For Mediatek devices:**
+**For Mediatek Devices:**
 ```shell
 sudo python ~/XiFi/XiFi.py -i wlan0 -K -w --mtk-wifi
 ```
@@ -123,4 +125,4 @@ This happens because something else is trying to use the interface (Wi-Fi scanne
 > By using this tool, you agree to use it responsibly and ethically, and to comply with all applicable laws and regulations.
 > The developer assumes no responsibility for any misuse of this tool.
 
-** © 2026 Xecute. All rights reserved. **
+# **© 2026 Xecute. All rights reserved.**
