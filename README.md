@@ -70,19 +70,18 @@ Advanced arguments:
  cd ~
  git clone https://github.com/The-Xecute/Xecute-WiFi XiFi
  ```
-##Running
-**Terminal**
+## Running
  ```shell
  sudo python ose/XiFi.py -i wlan0
  ```
-**OR √**
-- **On Termux:**
-- First Turn Off Wifi & Turn On Hotspot. Then Run
-**For Normal Devices:**
+## On Termux
+**First Turn Off Wifi & Turn On Hotspot. Then Run On Terminal**
+- **For Normal Devices:**
 ```shell
 sudo python ~/XiFi/XiFi.py -i wlan0 -K -w
 ```
-**For Mediatek Devices:**
+
+- **For Mediatek Devices:**
 ```shell
 sudo python ~/XiFi/XiFi.py -i wlan0 -K -w --mtk-wifi
 ```
